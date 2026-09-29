@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Hiya Singh Rajput"
 title_separator          : "-"
-name                     : &name "Hiya Singh Rajput"
+name                     : "Hiya Singh Rajput"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_6210.heic"
   name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "USA"
-  employer         : "University of Massachusetts Amherst "
-  uri              : # https://www.umass.edu/economics/
+  employer         : "University of Massachusetts Amherst"
+  uri              : "https://www.umass.edu/economics/"
   email            : "hrajput@umass.edu" 
 
   # Academic websites
