@@ -1,64 +1,34 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download CV — September 2026 (PDF)]({{ '/files/Rajput_CV.pdf' | relative_url }}){: .btn .btn--primary}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## References
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**James Heintz (Chair)**<br>
+Andrew Glyn Professor of Economics<br>
+University of Massachusetts Amherst<br>
+[jheintz@econs.umass.edu](mailto:jheintz@econs.umass.edu)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Ina Ganguli**<br>
+Professor, Department of Economics<br>
+University of Massachusetts Amherst<br>
+[iganguli@econs.umass.edu](mailto:iganguli@econs.umass.edu)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Nancy Folbre**<br>
+Director, Program on Gender and Care Work, Political Economy Research Institute<br>
+Professor Emeritx of Economics<br>
+University of Massachusetts Amherst<br>
+[folbre@econs.umass.edu](mailto:folbre@econs.umass.edu)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Lee Badgett**<br>
+Chief Economist and Founding Partner, Koppa – The LGBTI+ Economic Power Lab<br>
+Professor Emeritx of Economics<br>
+University of Massachusetts Amherst<br>
+[lbadgett@econs.umass.edu](mailto:lbadgett@econs.umass.edu)

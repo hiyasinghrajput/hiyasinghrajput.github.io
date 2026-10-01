@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+/* Personal styling layered over the Academic Pages template. */
+:root {
+  --global-bg-color: #faf8f4;
+  --global-text-color: #292e2b;
+  --global-text-color-light: #626860;
+  --global-link-color: #94533e;
+  --global-link-color-hover: #713e2e;
+  --global-link-color-visited: #94533e;
+  --global-border-color: #dcded5;
+  --global-footer-bg-color: #eeeee7;
+}
+html[data-theme="dark"] {
+  --global-bg-color: #202523;
+  --global-text-color: #eeeee7;
+  --global-text-color-light: #b9c3bb;
+  --global-link-color: #dfae98;
+  --global-link-color-hover: #f1d4c5;
+  --global-link-color-visited: #dfae98;
+  --global-border-color: #455149;
+  --global-footer-bg-color: #181d1a;
+}
+.page__title, .page__content h2, .page__content h3 {
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.page__title { font-size: 1.9em; margin-bottom: .5em; }
+.page__content {
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+  font-size: 0.9em;
+  line-height: 1.65;
+}
+.page__content .btn, .research-kicker {
+  font-family: $global-font-family;
+}
+.page__content h2 { margin-top: 1.8em; }
+.page__content h3 { font-size: $type-size-4; }
+.research-kicker {
+  font-size: $type-size-6 !important;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--global-link-color);
+}
+.featured-paper {
+  border-left: 3px solid var(--global-link-color);
+  padding: 1.3em 1.5em;
+  margin: 2em 0;
+  background: var(--global-footer-bg-color);
+}
+.featured-paper h2 { margin-top: .6em; border: 0; padding: 0; font-size: 1.35em; }
+.featured-paper p:last-child { margin-bottom: 0; }
+.profile-actions { display: flex; gap: .6em; flex-wrap: wrap; }
+.profile-actions .btn { margin: 0; }
+.btn--primary, .btn--primary:visited {
+  background: #94533e;
+  color: #fff !important;
+}
+.btn--primary:hover { background: #713e2e; }
+.author__avatar img { border-radius: 8px; }
+.author__urls a { overflow-wrap: anywhere; }
+.teaching-list li, .page__content li { margin-bottom: .8em; }
+.page__footer {
+  color: var(--global-text-color);
+  position: relative;
+  bottom: auto;
+}
+@media (min-width: 1024px) {
+  .page { padding-right: 3%; }
+  .page__inner-wrap { max-width: 800px; }
+  #main { margin-top: 3em; }
+}
+@media (max-width: $small) {
+  .page__title { font-size: 1.65em; }
+  .featured-paper { padding: 1em; }
+}
+
+.masthead__menu,
+.greedy-nav,
+.greedy-nav a,
+.sidebar,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6,
+.sidebar p,
+.sidebar li,
+.sidebar .author__name,
+.sidebar .author__urls-wrapper,
+.sidebar .btn {
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+}
+
+.sidebar .social-icons .fa-linkedin {
+  color: var(--global-link-color);
+}
+
+.profile-actions a[href$="/files/Rajput_CV.pdf"],
+.profile-actions a[href$="/files/Rajput_CV.pdf"]:visited {
+  background-color: #b49368;
+}
+.profile-actions a[href$="/files/Rajput_CV.pdf"]:hover {
+  background-color: #9b7c54;
+}
+.sidebar .author__urls i,
+.sidebar .author__urls .svg-inline--fa,
+.greedy-nav .masthead__menu-item--lg a,
+.greedy-nav .masthead__menu-item--lg a:visited {
+  color: var(--global-link-color);
+}

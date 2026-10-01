@@ -12,7 +12,7 @@ site_theme               : "dirt" # The available themes options are "default", 
 title                    : "Hiya Singh Rajput"
 title_separator          : "-"
 name                     : "Hiya Singh Rajput"
-description              : &description "Hiya's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Hiya Singh Rajput, PhD candidate in Economics at UMass Amherst. Research in feminist economics, political economy, and gender inequality in India."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://hiyasinghrajput.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hiyasinghrajput/hiyasinghrajput.github.io"
@@ -26,7 +26,7 @@ author:
   name             : "Hiya Singh Rajput"
   pronouns         : "she/her"  
   bio              : "PhD Candidate in Economics at the University of Massachusetts Amherst"
-  location         : "USA"
+  location         : "Amherst, Massachusetts"
   employer         : "University of Massachusetts Amherst"
   uri              : "https://www.umass.edu/economics/"
   email            : "hrajput@umass.edu" 
@@ -34,13 +34,13 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    :
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -50,13 +50,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "hiya-singh-rajput-577215195/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -124,7 +124,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -165,6 +165,37 @@ include:
   - _pages
   - files
 exclude:
+  - AGENTS.md
+  - _posts
+  - _publications
+  - _teaching
+  - _talks
+  - _portfolio
+  - talkmap_out.ipynb
+  - talkmap.ipynb
+  - talkmap.py
+  - markdown_generator
+  - talkmap
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - files/bibtex1.bib
+  - _pages/markdown.md
+  - _pages/page-archive.html
+  - _pages/talkmap.html
+  - _pages/year-archive.html
+  - _pages/cv-json.md
+  - _pages/tag-archive.html
+  - _pages/category-archive.html
+  - _pages/terms.md
+  - _pages/non-menu-page.md
+  - _pages/talks.html
+  - _pages/archive-layout-with-content.md
+  - _pages/collection-archive.html
+  - _pages/portfolio.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
