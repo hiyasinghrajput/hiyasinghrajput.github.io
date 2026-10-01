@@ -113,7 +113,8 @@ html[data-theme="dark"] {
 }
 .sidebar .author__urls i,
 .sidebar .author__urls .svg-inline--fa,
-.greedy-nav .masthead__menu-item--lg a,
-.greedy-nav .masthead__menu-item--lg a:visited {
+.sidebar .author__name,
+.page__content .paper-title,
+.page__content .teaching-role {
   color: var(--global-link-color);
 }
