@@ -169,3 +169,9 @@ html[data-theme="dark"] {
 .masthead__menu-item.selected a {
   border-bottom-color: var(--global-link-color);
 }
+
+.greedy-nav .masthead__menu-item a { font-weight: 700; }
+.greedy-nav .masthead__menu-item.selected a,
+.greedy-nav .masthead__menu-item.selected a:hover {
+  border-bottom: 2px solid var(--global-link-color);
+}
