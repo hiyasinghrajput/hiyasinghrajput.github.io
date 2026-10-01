@@ -15,6 +15,13 @@ var breaks = [];
 
 function updateNav() {
 
+  if (window.matchMedia('(max-width: 600px)').matches) {
+    $hlinks.children().insertBefore($vlinks_persist_tail);
+    breaks = [];
+    $btn.addClass('hidden').removeClass('close');
+    $hlinks.addClass('hidden');
+  }
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav

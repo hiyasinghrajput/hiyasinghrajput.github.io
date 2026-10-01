@@ -127,9 +127,15 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 600px) {
+  .greedy-nav .visible-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
   .greedy-nav a {
-    margin-left: .6rem;
-    margin-right: .6rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
