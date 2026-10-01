@@ -156,3 +156,16 @@ html[data-theme="dark"] {
 }
 
 .page__content .paper-status { color: var(--global-link-color); }
+
+.greedy-nav a,
+.greedy-nav a:visited,
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: var(--global-link-color);
+}
+.greedy-nav a:hover {
+  color: var(--global-link-color-hover);
+}
+.masthead__menu-item.selected a {
+  border-bottom-color: var(--global-link-color);
+}
