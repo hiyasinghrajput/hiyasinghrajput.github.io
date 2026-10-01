@@ -118,3 +118,10 @@ html[data-theme="dark"] {
 .page__content .teaching-role {
   color: var(--global-link-color);
 }
+
+@include breakpoint($large) {
+  .masthead__menu {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+}
