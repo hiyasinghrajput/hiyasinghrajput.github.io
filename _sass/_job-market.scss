@@ -125,3 +125,10 @@ html[data-theme="dark"] {
     @include prefix(0.5 of 12);
   }
 }
+
+@media (max-width: 600px) {
+  .greedy-nav a {
+    margin-left: .35rem;
+    margin-right: .35rem;
+  }
+}
