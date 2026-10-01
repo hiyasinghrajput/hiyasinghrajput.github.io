@@ -16,7 +16,7 @@ My dissertation, *Three Essays on Outsourcing Social Reproduction in India*, stu
 
 I did a Bachelor's in economics at Miranda House, University of Delhi, and a Master's in Economics at Ambedkar University Delhi. At the latter, my introduction to heterodox economics deepened my interest in the connections between gender, labor, and development — themes that continue to shape my research.
 
-<p class="profile-actions"><a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore my research</a> <a class="btn" href="{{ '/files/Rajput_CV.pdf' | relative_url }}">CV (PDF)</a></p>
+<p class="profile-actions"><a class="btn btn--primary" href="{{ '/research/' | relative_url }}">My research</a> <a class="btn" href="{{ '/files/Rajput_CV.pdf' | relative_url }}">CV (PDF)</a></p>
 
 <div class="featured-paper" markdown="1">
 <span class="research-kicker">Job Market Paper</span>

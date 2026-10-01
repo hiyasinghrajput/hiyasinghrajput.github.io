@@ -136,7 +136,7 @@ html[data-theme="dark"] {
 .sidebar .author__urls-wrapper > button {
   background-color: #94533e;
   border-color: #94533e;
-  color: #fff;
+  color: #fff !important;
 }
 .sidebar .author__urls-wrapper > button:hover {
   background-color: #713e2e;
