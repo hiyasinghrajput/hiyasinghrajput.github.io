@@ -140,6 +140,12 @@ html[data-theme="dark"] {
 }
 
 .sidebar .author__urls-wrapper > button {
+  font-family: $global-font-family;
+  text-decoration: underline;
+  border: 0 !important;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
   background-color: #94533e;
   border-color: #94533e;
   color: #fff !important;
