@@ -267,3 +267,6 @@ html[data-theme="dark"] {
 .name-pronunciation button { font: inherit; color: var(--global-link-color); background: none; border: 0; padding: 0; cursor: pointer; }
 .name-pronunciation button i { margin-right: .35em; }
 .name-pronunciation [hidden] { display: none; }
+
+.name-pronunciation,
+.name-pronunciation button { color: var(--global-text-color-light); }
