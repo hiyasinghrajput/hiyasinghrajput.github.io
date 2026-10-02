@@ -220,3 +220,16 @@ html[data-theme="dark"] {
   .home-fields { font-size: 16px; }
   .home-identity h1 { font-size: 2.4em; }
 }
+
+@media (min-width: 701px) {
+  .home-portrait { transform: translateX(16px); }
+}
+@media (min-width: 601px) {
+  .masthead__menu {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  .greedy-nav .visible-links { margin-left: auto; margin-right: auto; }
+}
