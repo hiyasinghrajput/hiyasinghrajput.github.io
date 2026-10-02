@@ -177,8 +177,8 @@ html[data-theme="dark"] {
 }
 
 /* Home page portrait and biography. */
-#main.home-main { max-width: 1280px; margin-top: 3em; }
-.home-profile { max-width: 1100px; margin: 0 auto; padding-bottom: 3em; font-family: "EB Garamond", Garamond, Georgia, serif; font-size: .95em; line-height: 1.55; }
+#main.home-main { max-width: 1000px; margin-top: 3em; }
+.home-profile { max-width: 810px; margin: 0 auto; padding-bottom: 3em; font-family: "EB Garamond", Garamond, Georgia, serif; font-size: .95em; line-height: 1.55; }
 .home-hero { display: grid; grid-template-columns: 310px 1fr; gap: 44px; align-items: center; margin-bottom: 3em; }
 .home-portrait { width: 310px; height: 365px; object-fit: cover; border-radius: 8px; }
 .home-identity h1 { font-size: 2.85em; line-height: 1.06; font-weight: 400; margin: 0 0 .35em; }
@@ -214,4 +214,9 @@ html[data-theme="dark"] {
 .home-identity h1,
 .home-bio h2 {
   font-family: "EB Garamond", Garamond, Georgia, serif;
+}
+
+@media (min-width: 701px) {
+  .home-fields { font-size: 14px; }
+  .home-identity h1 { font-size: 2.4em; }
 }
