@@ -186,7 +186,7 @@ html[data-theme="dark"] {
 .home-fields { color: var(--global-link-color); font-size: 1.1em; line-height: 1.4; margin: 0 0 1.1em; }
 .home-intro { margin: 0 0 1.2em; }
 .home-actions { display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
-.home-actions .btn { font-family: $global-font-family; font-size: 14px; text-decoration: underline; margin: 0; }
+.home-actions .btn { font-family: $global-font-family; font-size: 14px; text-decoration: none; margin: 0; }
 .home-connect { position: relative; }
 .home-connect summary { list-style: none; }
 .home-connect summary::-webkit-details-marker { display: none; }
@@ -233,3 +233,5 @@ html[data-theme="dark"] {
   }
   .greedy-nav .visible-links { margin-left: auto; margin-right: auto; }
 }
+
+.home-actions .btn:hover { text-decoration: none; }
