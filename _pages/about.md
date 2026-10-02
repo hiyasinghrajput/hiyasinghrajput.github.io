@@ -17,7 +17,7 @@ redirect_from:
 <div class="home-actions">
 <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">My research</a>
 <a class="btn btn--primary" href="{{ '/files/Rajput_CV.pdf' | relative_url }}">CV</a>
-<details class="home-connect"><summary class="btn btn--primary">Connect</summary><div class="home-contact-links"><a href="mailto:hrajput@umass.edu">Email</a><a href="https://www.linkedin.com/in/hiya-singh-rajput-577215195/">LinkedIn</a></div></details>
+<details class="home-connect"><summary class="btn btn--primary">Connect</summary><div class="home-contact-links"><a href="mailto:hrajput@umass.edu"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a><a href="https://www.linkedin.com/in/hiya-singh-rajput-577215195/"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></div></details>
 </div>
 </div>
 </section>

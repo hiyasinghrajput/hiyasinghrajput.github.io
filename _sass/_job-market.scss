@@ -235,3 +235,7 @@ html[data-theme="dark"] {
 }
 
 .home-actions .btn:hover { text-decoration: none; }
+
+.home-contact-links { flex-direction: column; gap: 8px; min-width: 130px; text-align: left; }
+.home-contact-links a { display: flex; align-items: center; gap: 10px; }
+.home-contact-links i { width: 18px; text-align: center; }
