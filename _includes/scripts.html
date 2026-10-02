@@ -3,3 +3,5 @@
 {% include analytics.html %}
 
 {% include comments-providers/scripts.html %}
+
+{% if page.layout == 'home' %}<script src="{{ '/assets/js/name-pronunciation.js' | relative_url }}"></script>{% endif %}

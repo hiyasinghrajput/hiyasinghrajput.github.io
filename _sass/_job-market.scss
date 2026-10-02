@@ -262,3 +262,8 @@ html[data-theme="dark"] {
   .fields-mobile-break { display: inline; }
   .fields-desktop-separator { display: none; }
 }
+
+.name-pronunciation { margin: 0 0 1em; font-size: .8em; }
+.name-pronunciation button { font: inherit; color: var(--global-link-color); background: none; border: 0; padding: 0; cursor: pointer; }
+.name-pronunciation button i { margin-right: .35em; }
+.name-pronunciation [hidden] { display: none; }
