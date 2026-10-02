@@ -210,3 +210,8 @@ html[data-theme="dark"] {
   .home-fields { font-size: 14px; }
 }
 @media (max-width: 700px) { .home-fields { font-size: clamp(10px, 2.6vw, 18px); } }
+
+.home-identity h1,
+.home-bio h2 {
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+}
