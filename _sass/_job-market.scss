@@ -256,3 +256,9 @@ html[data-theme="dark"] {
   .author__mobile-university a { text-decoration: none; }
   .author__mobile-university i { color: var(--global-link-color); }
 }
+
+.fields-mobile-break { display: none; }
+@media (max-width: 700px) {
+  .fields-mobile-break { display: inline; }
+  .fields-desktop-separator { display: none; }
+}

@@ -12,7 +12,7 @@ redirect_from:
 <img class="home-portrait" src="{{ '/images/profesh_photo.jpg' | relative_url }}" alt="Hiya Singh Rajput" fetchpriority="high">
 <div class="home-identity">
 <h1>Hiya Singh Rajput <span class="home-pronouns">(she/her)</span></h1>
-<p class="home-fields">Feminist Economics · Political Economy · Applied Microeconomics</p>
+<p class="home-fields">Feminist Economics · Political Economy<span class="fields-desktop-separator"> · </span><br class="fields-mobile-break">Applied Microeconomics</p>
 <p class="home-intro">PhD candidate in Economics<br>University of Massachusetts Amherst<br>Expected completion: 2027</p>
 <div class="home-actions">
 <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">My research</a>
