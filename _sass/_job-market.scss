@@ -175,3 +175,29 @@ html[data-theme="dark"] {
 .greedy-nav .masthead__menu-item.selected a:hover {
   border-bottom: 2px solid var(--global-link-color);
 }
+
+/* Home page portrait and biography. */
+#main.home-main { max-width: 1000px; margin-top: 3em; }
+.home-profile { max-width: 810px; margin: 0 auto; padding-bottom: 3em; font-family: "EB Garamond", Garamond, Georgia, serif; font-size: .95em; line-height: 1.55; }
+.home-hero { display: grid; grid-template-columns: 310px 1fr; gap: 44px; align-items: center; margin-bottom: 3em; }
+.home-portrait { width: 310px; height: 365px; object-fit: cover; border-radius: 8px; }
+.home-identity h1 { font-size: 2.85em; line-height: 1.06; font-weight: 400; margin: 0 0 .35em; }
+.home-pronouns { font-size: .9em; color: var(--global-text-color-light); margin: 0 0 1.1em; }
+.home-fields { color: var(--global-link-color); font-size: 1.1em; line-height: 1.4; margin: 0 0 1.1em; }
+.home-intro { margin: 0 0 1.2em; }
+.home-actions { display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+.home-actions .btn { font-family: $global-font-family; font-size: 14px; text-decoration: underline; margin: 0; }
+.home-connect { position: relative; }
+.home-connect summary { list-style: none; }
+.home-connect summary::-webkit-details-marker { display: none; }
+.home-contact-links { display: flex; gap: 18px; position: absolute; right: 0; top: 100%; padding: 12px; background: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; z-index: 2; white-space: nowrap; }
+.home-bio h2 { font-size: 1.4em; font-weight: 400; margin: 0 0 .4em; }
+.home-bio p { margin: 0 0 1em; }
+.home-address { margin-top: 2em; padding-top: 1em; border-top: 1px solid var(--global-border-color); font-size: .85em; color: var(--global-text-color-light); }
+@media (max-width: 700px) {
+  #main.home-main { margin-top: 2em; }
+  .home-hero { grid-template-columns: 1fr; gap: 28px; text-align: center; margin-bottom: 2em; }
+  .home-portrait { width: 260px; height: 306px; margin: auto; }
+  .home-identity h1 { font-size: 2.3em; }
+  .home-actions { justify-content: center; }
+}
