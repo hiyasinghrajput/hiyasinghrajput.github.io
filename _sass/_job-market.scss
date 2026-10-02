@@ -243,3 +243,5 @@ html[data-theme="dark"] {
 .home-contact-links { left: 0; right: auto; }
 
 .sidebar .sidebar-pronouns { font-size: .75em; font-weight: 400; white-space: nowrap; }
+
+#main:has(.teaching-list) { padding-bottom: 6rem; }
