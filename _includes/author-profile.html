@@ -9,6 +9,7 @@
   <div class="author__content">
     {% unless page.url == "/" %}<h3 class="author__name">{{ author.name }}{% if author.pronouns %} <span class="sidebar-pronouns">({{ author.pronouns }})</span>{% endif %}</h3>{% endunless %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.employer %}<p class="author__mobile-university"><a href="{{ author.uri }}"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> {{ author.employer }}</a></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
