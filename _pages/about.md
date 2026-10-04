@@ -22,5 +22,9 @@ redirect_from:
 </div>
 </div>
 </section>
-<section class="home-bio"><h2>About me</h2><p>I am a feminist economist from the Global South, currently using national time-use and labor force survey data to analyze the time-use impact of paid domestic work, the shrinking opportunities for dignified wage employment among less-educated urban women, and the economic position of transgender people in India.</p><p>I am a member of the International Association for Feminist Economics (IAFFE).</p><p>Before starting my PhD, I worked at the Institute for What Works to Advance Gender Equality (IWWAGE) in New Delhi. I was introduced to Economics at Miranda House, University of Delhi, but it was at Ambedkar University Delhi that I came across Heterodox Economics, which deepened my interest in the connections between gender, labor, and development — themes that continue to shape my research.</p></section>
+<section class="home-bio"><h2>About me</h2>
+<p>I am a feminist economist from the Global South, currently analyzing the association between paid domestic work arrangements and the workdays of employers and domestic workers; the shrinking opportunities for dignified wage employment among less-educated urban women; and the economic position of transgender people, using data from the Indian Time Use Survey and the Periodic Labour Force Survey.</p>
+<p>Before starting my PhD at UMass Amherst, I worked as a researcher at the Institute for What Works to Advance Gender Equality (IWWAGE) in New Delhi. I earned a Master’s in Economics from Ambedkar University Delhi, where I trained in heterodox economics, and a Bachelor’s in Economics from Miranda House, University of Delhi. That training continues to inform my approach to questions of gender, labor, and development.</p>
+<p>I am a member of the International Association for Feminist Economics (IAFFE).</p>
+</section>
 <div class="home-address">Department of Economics · University of Massachusetts Amherst<br>Gordon Hall 112A · Amherst, MA 01002</div>
