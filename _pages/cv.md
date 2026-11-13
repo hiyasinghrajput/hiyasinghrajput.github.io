@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Download CV — September 2026 (PDF)]({{ '/files/Rajput_CV.pdf' | relative_url }}){: .btn .btn--primary}
+[Download CV — October 2026 (PDF)]({{ '/files/Rajput_CV.pdf' | relative_url }}){: .btn .btn--primary}
 
 ## References
 
